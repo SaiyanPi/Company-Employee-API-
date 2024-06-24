@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DJUt6/E/iPkcKAhp8C6hUZp50/gc2QXzZwKycBImHxLAboO2C5zSpYayYe8hsh8QNwfY8YB//2cLy/dKPaxOjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}
