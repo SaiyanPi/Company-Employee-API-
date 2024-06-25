@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|solutionrelative:service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1139CE6-6CDF-4DF8-B0A4-76372AA01D8F}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1139CE6-6CDF-4DF8-B0A4-76372AA01D8F}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708A4235-C552-459B-87B6-0AF3C23B8F93}|Repository\\Repository.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708A4235-C552-459B-87B6-0AF3C23B8F93}|Repository\\Repository.csproj|solutionrelative:repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C67AF82A-0277-4D02-9A13-D1CCFDE8437D}|Contracts\\Contracts.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C67AF82A-0277-4D02-9A13-D1CCFDE8437D}|Contracts\\Contracts.csproj|solutionrelative:contracts\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ArrayModelBinder.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABFAAAA",
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:54:11.939Z",
+              "WhenOpened": "2024-06-25T14:30:25.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CompaniesController.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAABmAAAA",
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "Service\\EmployeeService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowEoAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:27:36.063Z",
+              "WhenOpened": "2024-06-25T14:29:40.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service.Contracts\\IEmployeeService.cs",
+              "RelativeToolTip": "Service.Contracts\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T14:29:10.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repository\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T14:26:51.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Contracts\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Contracts\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Contracts\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Contracts\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T14:26:42.798Z",
               "EditorCaption": ""
             }
           ]
