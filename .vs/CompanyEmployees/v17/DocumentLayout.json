@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|solutionrelative:service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE46C3FB-4FB3-4272-9528-23520BC49DEA}|Shared\\Shared.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\shared\\datatransferobjects\\companyforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE46C3FB-4FB3-4272-9528-23520BC49DEA}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\companyforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\modelbinders\\arraymodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArrayModelBinder.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "RelativeToolTip": "CompanyEmployees.Presentation\\ModelBinders\\ArrayModelBinder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:54:11.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -36,35 +45,9 @@
               "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
               "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
               "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAABmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T10:25:50.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompanyService.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\CompanyService.cs",
-              "RelativeDocumentMoniker": "Service\\CompanyService.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\CompanyService.cs",
-              "RelativeToolTip": "Service\\CompanyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T10:23:24.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompanyForCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
-              "RelativeToolTip": "Shared\\DataTransferObjects\\CompanyForCreationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:29:15.835Z",
+              "WhenOpened": "2024-06-25T11:27:36.063Z",
               "EditorCaption": ""
             }
           ]

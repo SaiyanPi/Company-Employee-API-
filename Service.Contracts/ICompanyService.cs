@@ -18,6 +18,8 @@ namespace Service.Contracts
         //for POST method
         CompanyDto CreateCompany(CompanyForCreationDto company);
 
-
+        //for creating a collection of resources
+        IEnumerable<CompanyDto> GetByIds(IEnumerable<Guid> ids, bool trackChanges);
+        (IEnumerable<CompanyDto> companies, string ids) CreateCompanyCollection(IEnumerable<CompanyForCreationDto> companyCollection);
     }
 }

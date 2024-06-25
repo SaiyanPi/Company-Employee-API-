@@ -15,3 +15,4 @@ C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\LoggerService\obj\De
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\LoggerService\obj\Debug\net6.0\ref\LoggerService.dll
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\LoggerService\bin\Debug\net6.0\Entities.dll
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\LoggerService\bin\Debug\net6.0\Entities.pdb
+C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\LoggerService\obj\Debug\net6.0\LoggerService.sourcelink.json

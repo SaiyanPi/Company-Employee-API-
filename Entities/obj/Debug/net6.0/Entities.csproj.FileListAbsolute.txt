@@ -9,3 +9,4 @@ C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Entities\obj\Debug\n
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Entities\obj\Debug\net6.0\refint\Entities.dll
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.pdb
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Entities\obj\Debug\net6.0\Entities.sourcelink.json

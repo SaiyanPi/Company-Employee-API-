@@ -17,5 +17,8 @@ namespace Contracts
         //for POST method
         void CreateCompany(Company company);
 
+        //for creating a collection of resources
+        IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges);
+
     }
 }

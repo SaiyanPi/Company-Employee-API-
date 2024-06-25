@@ -25,6 +25,10 @@ namespace Repository
         //for POST method
         public void CreateCompany(Company company) => Create(company);
 
+        //for creating a collection of resources
+        public IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges) => 
+        FindByCondition(x => ids.Contains(x.Id), trackChanges).ToList();
+
     }
 
 }

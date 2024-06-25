@@ -15,3 +15,4 @@ C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Repository\obj\Debug
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Repository\obj\Debug\net6.0\ref\Repository.dll
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Repository\bin\Debug\net6.0\Contracts.dll
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Repository\bin\Debug\net6.0\Contracts.pdb
+C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Repository\obj\Debug\net6.0\Repository.sourcelink.json
