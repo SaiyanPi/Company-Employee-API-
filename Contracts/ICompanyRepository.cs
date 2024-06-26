@@ -20,5 +20,6 @@ namespace Contracts
         //for creating a collection of resources
         IEnumerable<Company> GetByIds(IEnumerable<Guid> ids, bool trackChanges);
 
+        void DeleteCompany(Company company);
     }
 }

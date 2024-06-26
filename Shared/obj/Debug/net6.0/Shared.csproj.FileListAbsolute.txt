@@ -9,3 +9,4 @@ C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net6.0\refint\Shared.dll
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net6.0\Shared.pdb
 C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net6.0\ref\Shared.dll
+C:\Users\zlams\source\ASP.NET Core Web API\CompanyEmployees\Shared\obj\Debug\net6.0\Shared.sourcelink.json

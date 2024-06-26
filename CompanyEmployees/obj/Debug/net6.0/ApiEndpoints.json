@@ -105,10 +105,52 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
+    "Method": "UpdateEmployeeForCompany",
+    "RelativePath": "api/companies/{companyId}/employees/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "employee",
+        "Type": "Shared.DataTransferObjects.EmployeeForUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
     "Method": "GetCompany",
     "RelativePath": "api/companies/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
+    "Method": "DeleteCompany",
+    "RelativePath": "api/companies/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

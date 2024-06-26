@@ -118,13 +118,13 @@ namespace CompanyEmployees.Migrations
                             Position = "Administrator"
                         });
                 });
-
+            //deleteing parent resource(company) also deletes child resource(employee)
             modelBuilder.Entity("Entities.Models.Employee", b =>
                 {
                     b.HasOne("Entities.Models.Company", "Company")
                         .WithMany("Employees")
                         .HasForeignKey("CompanyId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Cascade) 
                         .IsRequired();
 
                     b.Navigation("Company");
