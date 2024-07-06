@@ -195,6 +195,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Entities\\Entities.csproj"
+              },
               "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\Shared.csproj": {
                 "projectPath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\Shared.csproj"
               }

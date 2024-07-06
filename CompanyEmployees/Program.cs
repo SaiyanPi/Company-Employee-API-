@@ -1,8 +1,11 @@
+using CompanyEmployees;
 using CompanyEmployees.Extensions;
 using Contracts;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Extensions.Options;
 using NLog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -46,8 +49,11 @@ builder.Services.AddControllers(config => {
     // if the client tries to negotiate for the media type the server doesn’t support,
     // it should return the 406 Not Acceptable statuscode.
     config.ReturnHttpNotAcceptable = true;
-
+    //for PATCH
+    //config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
 })
+.AddNewtonsoftJson() //for PATCH
+
 // Added for formatting response
 .AddXmlDataContractSerializerFormatters()
 
@@ -57,6 +63,7 @@ builder.Services.AddControllers(config => {
 // Adding Controller service from the Presentation Project
 .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
+
 var app = builder.Build();
 
 //added for exception handeling
@@ -65,7 +72,6 @@ app.ConfigureExceptionHandler(logger);
 if (app.Environment.IsProduction())
     app.UseHsts();
 //
-
 
 app.UseHttpsRedirection();
 // Method added
@@ -83,3 +89,10 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+//NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
+//{
+//    return new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
+//    .Services.BuildServiceProvider()
+//    .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
+//    .OfType<NewtonsoftJsonPatchInputFormatter>().First();
+//}

@@ -38,6 +38,8 @@ namespace CompanyEmployees.Presentation.Controllers
         {
             if (company is null)
                 return BadRequest("CompanyForCreationDto object is null");
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
             var createdCompany = _service.CompanyService.CreateCompany(company);
 
             //returns status code 201, also populate the body of the response with
@@ -65,6 +67,20 @@ namespace CompanyEmployees.Presentation.Controllers
         public IActionResult DeleteCompany(Guid id)
         {
             _service.CompanyService.DeleteCompany(id, trackChanges: false);
+            return NoContent();
+        }
+
+        //update
+        [HttpPut("{id:guid}")]
+        public IActionResult UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company)
+        {
+            if (company is null)
+                return BadRequest("CompanyForUpdateDto object is null");
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+
+            _service.CompanyService.UpdateCompany(id, company, trackChanges: true);
+
             return NoContent();
         }
     }

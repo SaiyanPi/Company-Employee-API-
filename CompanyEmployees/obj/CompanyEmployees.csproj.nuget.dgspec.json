@@ -57,6 +57,10 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -576,6 +580,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Entities\\Entities.csproj"
+              },
               "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\Shared.csproj": {
                 "projectPath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\Shared.csproj"
               }
