@@ -63,8 +63,7 @@
               "RelativeToolTip": "Service.Contracts\\ICompanyService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T07:05:54.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T07:05:54.296Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Repository\\RepositoryManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T06:57:51.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T06:57:51.018Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Contracts\\IRepositoryManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T06:47:59.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T06:47:59.285Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Repository\\CompanyRepository.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T06:29:08.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T06:29:08.674Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,11 @@
               "RelativeToolTip": "Contracts\\ICompanyRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T06:16:59.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T06:16:59.917Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
