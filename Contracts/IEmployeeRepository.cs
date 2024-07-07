@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Contracts
 {
     public interface IEmployeeRepository
     {
-        IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges);
+        Task<IEnumerable<Employee>> GetEmployeesAsync(Guid companyId, bool trackChanges);
 
         //getting a single resource(EMPLOYEE) from db
         Employee GetEmployee(Guid companyId, Guid id, bool trackChanges);
