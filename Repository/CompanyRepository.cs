@@ -29,10 +29,6 @@ namespace Repository
             await FindByCondition(c => c.Id.Equals(companyId), trackChanges)
             .SingleOrDefaultAsync();
 
-        public Company GetCompany(Guid companyId, bool trackChanges) =>
-          FindByCondition(c => c.Id.Equals(companyId), trackChanges)
-          .SingleOrDefault();
-
         //for POST method
         public void CreateCompany(Company company) => Create(company);
 

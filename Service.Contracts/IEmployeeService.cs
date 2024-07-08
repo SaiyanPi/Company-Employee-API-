@@ -20,7 +20,7 @@ namespace Service.Contracts
             bool compTrackChanges, bool empTrackChanges);
 
         //patch
-        (EmployeeForUpdateDto employeeToPatch, Employee employeeEntity) GetEmployeeForPatch(Guid companyId, 
+        Task <(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)> GetEmployeeForPatchAsync(Guid companyId, 
             Guid id, bool compTrackChanges, bool empTrackChanges);
 
         Task SaveChangesForPatchAsync(EmployeeForUpdateDto employeeToPatch, Employee

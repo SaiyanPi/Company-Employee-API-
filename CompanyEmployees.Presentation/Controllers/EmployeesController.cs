@@ -69,7 +69,7 @@ namespace CompanyEmployees.Presentation.Controllers
             if (patchDoc is null)
                 return BadRequest("patchDoc object sent from client is null.");
          
-            var result = _service.EmployeeService.GetEmployeeForPatch(companyId, id, compTrackChanges: false, empTrackChanges: true);
+            var result = await _service.EmployeeService.GetEmployeeForPatchAsync(companyId, id, compTrackChanges: false, empTrackChanges: true);
             patchDoc.ApplyTo(result.employeeToPatch, ModelState);
 
             TryValidateModel(result.employeeToPatch);

@@ -15,8 +15,7 @@ namespace Contracts
         //getting a single resource from db
         //Company GetCompany(Guid companyId, bool trackChanges);
         Task<Company> GetCompanyAsync(Guid companyId, bool trackChanges);
-        Company GetCompany(Guid companyId, bool trackChanges); //for PATCH 
-
+       
         //for POST method
         void CreateCompany(Company company);
 
