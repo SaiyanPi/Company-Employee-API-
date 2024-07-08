@@ -1,5 +1,6 @@
 using CompanyEmployees;
 using CompanyEmployees.Extensions;
+using CompanyEmployees.Presentation.ActionFilters;
 using Contracts;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -33,6 +34,9 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 //
 // Added auotmapper
 builder.Services.AddAutoMapper(typeof(Program));
+//
+// Added action filter
+builder.Services.AddScoped<ValidationFilterAttribute>();
 //
 
 // Enable custom respopnses prevented by [ApiController] attribute in controller.
