@@ -16,7 +16,10 @@ namespace CompanyEmployees.Extensions
              options.AddPolicy("CorsPolicy", builder =>
              builder.AllowAnyOrigin()
              .AllowAnyMethod()
-             .AllowAnyHeader());
+             .AllowAnyHeader()
+             //to enable the client application to read the new 'X-Pagination' header
+             //that we've added in 'GetEmployeesForCompany' action in Paging section
+             .WithExposedHeaders("X-Pagination")); 
          });
 
         // 1) Configuring IIS

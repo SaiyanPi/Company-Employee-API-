@@ -4,6 +4,7 @@ using Entities.Exceptions;
 using Entities.Models;
 using Service.Contracts;
 using Shared.DataTransferObjects;
+using Shared.RequestFeatures;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,15 +41,23 @@ namespace Service
         }
         //
 
-        public async Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId, bool trackChanges)
+        //public async Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId, bool trackChanges)
+        //public async Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId,
+        //    EmployeeParameter employeeParameters, bool trackChanges)
+        //after final improvement in paging
+        public async Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync
+            (Guid companyId, EmployeeParameter employeeParameters, bool trackChanges)
         {
             //var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges);
             //if (company is null)
             //    throw new CompanyNotFoundException(companyId);
             await CheckIfCompanyExists(companyId, trackChanges);
-            var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId,trackChanges);
-            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
-            return employeesDto;
+            //var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
+            //var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
+            //return employeesDto;
+            var employeesWithMetaData = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
+            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
+            return (employees: employeesDto, metaData: employeesWithMetaData.MetaData);
         }
 
         // getting a single resource(employee) from db
