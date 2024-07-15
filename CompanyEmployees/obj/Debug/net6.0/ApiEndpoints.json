@@ -39,6 +39,26 @@
         "IsRequired": true
       },
       {
+        "Name": "MinAge",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxAge",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValidAgeRange",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "PageNumber",
         "Type": "System.Int32",
         "IsRequired": false
