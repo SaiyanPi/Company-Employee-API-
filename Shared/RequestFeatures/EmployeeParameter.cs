@@ -8,6 +8,10 @@ namespace Shared.RequestFeatures
 {
     public class EmployeeParameter: RequestParameters
     {
+        public EmployeeParameter()
+        {
+            OrderBy = "name";
+        }
         // FOR FILTERING
         // unsigned integer prop to avoid negatice year values
         // Since the default uint value is 0, we don’t need to explicitly define it; 0 is okay in this case.

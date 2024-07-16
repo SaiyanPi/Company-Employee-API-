@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I/JapkZzy7UImGPLViKqunZHyjjoRpPY6I1CaTONoV5XS8QLC3ivlGFl7zGYIaP/lM3rqJrnYDBtLN7hwGLnJQ==",
+  "dgSpecHash": "KIkJ4q/8hoN2SgRH7qJ39sIBMt2UshPKUvkSjayrIfuBVAwbodBSB64S9Zsrf4x4syAsB+mQyPzF/wJZEoIqdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -79,6 +79,7 @@
     "C:\\Users\\zlams\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\system.linq.dynamic.core\\1.4.3\\system.linq.dynamic.core.1.4.3.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",
