@@ -7,6 +7,7 @@ using Shared.DataTransferObjects;
 using Shared.RequestFeatures;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,11 +19,16 @@ namespace Service
         private readonly IRepositoryManager _repository;
         private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
-        public EmployeeService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+        private readonly IDataShaper<EmployeeDto> _dataShaper;
+        public EmployeeService(IRepositoryManager repository, ILoggerManager logger,
+            IMapper mapper, IDataShaper<EmployeeDto> dataShaper)
+
         {
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
+            _dataShaper = dataShaper;
+
         }
         //Extracting common code
         private async Task CheckIfCompanyExists(Guid companyId, bool trackChanges)
@@ -45,22 +51,20 @@ namespace Service
         //public async Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId,
         //    EmployeeParameter employeeParameters, bool trackChanges)
         //after final improvement in paging
-        public async Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync
-            (Guid companyId, EmployeeParameter employeeParameters, bool trackChanges)
+        public async Task<(IEnumerable<ExpandoObject> employees, MetaData metaData)>
+GetEmployeesAsync
+(Guid companyId, EmployeeParameter employeeParameters, bool trackChanges)
         {
             if (!employeeParameters.ValidAgeRange)
                 throw new MaxAgeRangeBadRequestException();
-
-            //var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges);
-            //if (company is null)
-            //    throw new CompanyNotFoundException(companyId);
             await CheckIfCompanyExists(companyId, trackChanges);
-            //var employeesFromDb = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
-            //var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
-            //return employeesDto;
-            var employeesWithMetaData = await _repository.Employee.GetEmployeesAsync(companyId, employeeParameters, trackChanges);
-            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
-            return (employees: employeesDto, metaData: employeesWithMetaData.MetaData);
+            var employeesWithMetaData = await _repository.Employee
+            .GetEmployeesAsync(companyId, employeeParameters, trackChanges);
+            var employeesDto =
+            _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
+            var shapedData = _dataShaper.ShapeData(employeesDto,
+            employeeParameters.Fields);
+            return (employees: shapedData, metaData: employeesWithMetaData.MetaData);
         }
 
         // getting a single resource(employee) from db

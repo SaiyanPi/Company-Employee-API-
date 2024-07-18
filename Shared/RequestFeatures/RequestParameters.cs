@@ -24,5 +24,7 @@ namespace Shared.RequestFeatures
         }
 
         public string? OrderBy { get; set; } // for sorting
+
+        public string? Fields { get; set; }
     }
 }

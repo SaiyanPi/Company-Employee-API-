@@ -72,6 +72,11 @@
         "Name": "OrderBy",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "Fields",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

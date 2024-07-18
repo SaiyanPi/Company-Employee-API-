@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.Options;
 using NLog;
+using Service.DataShaping;
+using Shared.DataTransferObjects;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +39,9 @@ builder.Services.AddAutoMapper(typeof(Program));
 //
 // Added action filter
 builder.Services.AddScoped<ValidationFilterAttribute>();
+//
+// Added DataShaper
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 //
 
 // Enable custom respopnses prevented by [ApiController] attribute in controller.
