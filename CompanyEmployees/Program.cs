@@ -63,7 +63,7 @@ builder.Services.AddControllers(config => {
     // it should return the 406 Not Acceptable statuscode.
     config.ReturnHttpNotAcceptable = true;
     //for PATCH
-    config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
+    //config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
 })
     .AddNewtonsoftJson() //for PATCH
 
@@ -105,8 +105,8 @@ app.MapControllers();
 
 app.Run();
 
-NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() => 
-    new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
-    .Services.BuildServiceProvider()
-    .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
-    .OfType<NewtonsoftJsonPatchInputFormatter>().First();
+//NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() => 
+//    new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
+//    .Services.BuildServiceProvider()
+//    .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
+//    .OfType<NewtonsoftJsonPatchInputFormatter>().First();
