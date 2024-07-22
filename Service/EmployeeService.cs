@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Contracts;
 using Entities.Exceptions;
+using Entities.LinkModels;
 using Entities.Models;
 using Service.Contracts;
 using Shared.DataTransferObjects;
@@ -20,14 +21,14 @@ namespace Service
         private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
         private readonly IDataShaper<EmployeeDto> _dataShaper;
+        private readonly IEmployeeLinks _employeeLinks;
         public EmployeeService(IRepositoryManager repository, ILoggerManager logger,
-            IMapper mapper, IDataShaper<EmployeeDto> dataShaper)
-
+            IMapper mapper, IEmployeeLinks employeeLinks)
         {
             _repository = repository;
             _logger = logger;
             _mapper = mapper;
-            _dataShaper = dataShaper;
+            _employeeLinks = employeeLinks;
 
         }
         //Extracting common code
@@ -51,20 +52,19 @@ namespace Service
         //public async Task<IEnumerable<EmployeeDto>> GetEmployeesAsync(Guid companyId,
         //    EmployeeParameter employeeParameters, bool trackChanges)
         //after final improvement in paging
-        public async Task<(IEnumerable<ExpandoObject> employees, MetaData metaData)>
-GetEmployeesAsync
-(Guid companyId, EmployeeParameter employeeParameters, bool trackChanges)
+        public async Task<(LinkResponse linkResponse, MetaData metaData)> GetEmployeesAsync
+            (Guid companyId, LinkParameters linkParameters, bool trackChanges)
+
         {
-            if (!employeeParameters.ValidAgeRange)
+            if (!linkParameters.EmployeeParameters.ValidAgeRange)
                 throw new MaxAgeRangeBadRequestException();
             await CheckIfCompanyExists(companyId, trackChanges);
             var employeesWithMetaData = await _repository.Employee
-            .GetEmployeesAsync(companyId, employeeParameters, trackChanges);
-            var employeesDto =
-            _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
-            var shapedData = _dataShaper.ShapeData(employeesDto,
-            employeeParameters.Fields);
-            return (employees: shapedData, metaData: employeesWithMetaData.MetaData);
+                .GetEmployeesAsync(companyId, linkParameters.EmployeeParameters, trackChanges);
+            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
+            var links = _employeeLinks.TryGenerateLinks(employeesDto,
+                linkParameters.EmployeeParameters.Fields,companyId, linkParameters.Context);
+            return (linkResponse: links, metaData: employeesWithMetaData.MetaData);
         }
 
         // getting a single resource(employee) from db

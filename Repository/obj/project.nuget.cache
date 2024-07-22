@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FgatiEOIKEpHzjfi/elGLL38ZaQi3mgjaqomrij2Qt/lpgqB+oiunZrcai76JpVt+C30Elw0lXgX12rVgioVeA==",
+  "dgSpecHash": "DoabTJhmK7jnB5TRHIkRWZHr2b49r05S7D0b0xQuZwYXAx5C5hqGGjxAg/VsfM0ffeV9wq6im9o0nVIVzbblzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.31\\microsoft.entityframeworkcore.6.0.31.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.31\\microsoft.entityframeworkcore.abstractions.6.0.31.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.31\\microsoft.entityframeworkcore.analyzers.6.0.31.nupkg.sha512",
@@ -15,10 +19,13 @@
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.linq.dynamic.core\\1.4.3\\system.linq.dynamic.core.1.4.3.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"

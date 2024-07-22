@@ -1,6 +1,7 @@
 using CompanyEmployees;
 using CompanyEmployees.Extensions;
 using CompanyEmployees.Presentation.ActionFilters;
+using CompanyEmployees.Utility;
 using Contracts;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -37,12 +38,6 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 // Added auotmapper
 builder.Services.AddAutoMapper(typeof(Program));
 //
-// Added action filter
-builder.Services.AddScoped<ValidationFilterAttribute>();
-//
-// Added DataShaper
-builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
-//
 
 // Enable custom respopnses prevented by [ApiController] attribute in controller.
 // Adding this code or removing that attribute is same thing
@@ -51,26 +46,37 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
     options.SuppressModelStateInvalidFilter = true;
 });
 //
+// Added action filter
+builder.Services.AddScoped<ValidationFilterAttribute>();
+//
+builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 
-builder.Services.AddControllers(config => {
+// Added DataShaper
+builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
+//
+builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+
+builder.Services.AddControllers(config => {    
     config.RespectBrowserAcceptHeader = true; // Added for formatting response
 
     // if the client tries to negotiate for the media type the server doesn’t support,
     // it should return the 406 Not Acceptable statuscode.
     config.ReturnHttpNotAcceptable = true;
     //for PATCH
-    //config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
+    config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
 })
-.AddNewtonsoftJson() //for PATCH
+    .AddNewtonsoftJson() //for PATCH
 
-// Added for formatting response
-.AddXmlDataContractSerializerFormatters()
+    // Added for formatting response
+    .AddXmlDataContractSerializerFormatters()
 
-// Added for custom formatter
-.AddCustomCSVFormatter()
+    // Added for custom formatter
+    .AddCustomCSVFormatter()
 
-// Adding Controller service from the Presentation Project
-.AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
+    // Adding Controller service from the Presentation Project
+    .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
+
+builder.Services.AddCustomMediaTypes();
 
 
 var app = builder.Build();
@@ -98,10 +104,9 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-//NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter()
-//{
-//    return new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
-//    .Services.BuildServiceProvider()
-//    .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
-//    .OfType<NewtonsoftJsonPatchInputFormatter>().First();
-//}
+
+NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() => 
+    new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
+    .Services.BuildServiceProvider()
+    .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
+    .OfType<NewtonsoftJsonPatchInputFormatter>().First();

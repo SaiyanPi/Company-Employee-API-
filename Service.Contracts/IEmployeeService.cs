@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.LinkModels;
+using Entities.Models;
 using Shared.DataTransferObjects;
 using Shared.RequestFeatures;
 using System;
@@ -17,8 +18,9 @@ namespace Service.Contracts
         //    EmployeeParameter employeeParameters, bool trackChanges);
         //Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync(Guid 
         //    companyId, EmployeeParameter employeeParameters, bool trackChanges);
-        Task<(IEnumerable<ExpandoObject> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId,
-            EmployeeParameter employeeParameters, bool trackChanges);
+        Task<(LinkResponse linkResponse, MetaData metaData)> GetEmployeesAsync(Guid companyId,
+            LinkParameters linkParameters, bool trackChanges);
+
         Task<EmployeeDto> GetEmployeeAsync(Guid companyId, Guid id, bool trackChanges);
 
         Task<EmployeeDto> CreateEmployeeForCompanyAsync(Guid companyId, EmployeeForCreationDto employeeForCreation, bool trackChanges);
@@ -31,8 +33,7 @@ namespace Service.Contracts
         Task <(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)> GetEmployeeForPatchAsync(Guid companyId, 
             Guid id, bool compTrackChanges, bool empTrackChanges);
 
-        Task SaveChangesForPatchAsync(EmployeeForUpdateDto employeeToPatch, Employee
-        employeeEntity);
+        Task SaveChangesForPatchAsync(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity);
 
       
     }
