@@ -20,6 +20,13 @@ namespace CompanyEmployees.Presentation.Controllers
         // inject the IServiceManager interface inside the constructor.
         public CompaniesController(IServiceManager service) => _service = service;
 
+        [HttpOptions]
+        public IActionResult GetCompaniesOptions()
+        {
+            Response.Headers.Add("Allow", "GET, OPTIONS, POST");
+            return Ok();
+        }
+
         [HttpGet]
         //public IActionResult GetCompanies()
         //{ 
