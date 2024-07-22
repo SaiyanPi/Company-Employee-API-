@@ -27,7 +27,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok();
         }
 
-        [HttpGet]
+        [HttpGet(Name = "GetCompanies")]
         //public IActionResult GetCompanies()
         //{ 
         //    var companies = _service.CompanyService.GetAllCompanies(trackChanges: false);
@@ -53,7 +53,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok(company);
         }
 
-        [HttpPost]
+        [HttpPost(Name = "CreateCompany")]
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         //public IActionResult CreateCompany([FromBody] CompanyForCreationDto company)
         //{
