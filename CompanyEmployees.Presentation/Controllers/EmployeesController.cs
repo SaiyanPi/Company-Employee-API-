@@ -1,16 +1,11 @@
-﻿using Shared.RequestFeatures;
-using CompanyEmployees.Presentation.ActionFilters;
+﻿using CompanyEmployees.Presentation.ActionFilters;
+using Entities.LinkModels;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Shared.RequestFeatures;
 using System.Text.Json;
-using Entities.LinkModels;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
@@ -81,13 +76,15 @@ namespace CompanyEmployees.Presentation.Controllers
 
         //patch
         [HttpPatch("{id:guid}")]
-        public async Task<IActionResult> PartiallyUpdateEmployeeForCompany(Guid companyId, Guid id, 
-            [FromBody] JsonPatchDocument<EmployeeForUpdateDto> patchDoc)
+        public async Task<IActionResult> PartiallyUpdateEmployeeForCompany(Guid companyId, Guid id,
+        [FromBody] JsonPatchDocument<EmployeeForUpdateDto?> patchDoc)
         {
             if (patchDoc is null)
                 return BadRequest("patchDoc object sent from client is null.");
-         
-            var result = await _service.EmployeeService.GetEmployeeForPatchAsync(companyId, id, compTrackChanges: false, empTrackChanges: true);
+
+            var result = await _service.EmployeeService.GetEmployeeForPatchAsync(companyId, id,
+                compTrackChanges: false, empTrackChanges: true);
+
             patchDoc.ApplyTo(result.employeeToPatch, ModelState);
 
             TryValidateModel(result.employeeToPatch);
@@ -96,6 +93,7 @@ namespace CompanyEmployees.Presentation.Controllers
                 return UnprocessableEntity(ModelState);
 
             await _service.EmployeeService.SaveChangesForPatchAsync(result.employeeToPatch, result.employeeEntity);
+
             return NoContent();
         }
     }

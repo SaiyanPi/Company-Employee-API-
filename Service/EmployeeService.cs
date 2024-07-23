@@ -130,22 +130,15 @@ namespace Service
         }
 
         //patch
-        public async Task <(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)> GetEmployeeForPatchAsync
+        public async Task<(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)> GetEmployeeForPatchAsync
         (Guid companyId, Guid id, bool compTrackChanges, bool empTrackChanges)
         {
-            //var company = await _repository.Company.GetCompanyAsync(companyId, compTrackChanges);
-            //if (company is null)
-            //    throw new CompanyNotFoundException(companyId);
             await CheckIfCompanyExists(companyId, compTrackChanges);
 
-            //var employeeEntity = await _repository.Employee.GetEmployeeAsync(companyId, id, empTrackChanges);
-            //if (employeeEntity is null)
-            //    throw new EmployeeNotFoundException(companyId);
             var employeeDb = await GetEmployeeForCompanyAndCheckIfItExists(companyId, id, empTrackChanges);
 
-            //var employeeToPatch = _mapper.Map<EmployeeForUpdateDto>(employeeEntity);
-            //return (employeeToPatch, employeeEntity);
             var employeeToPatch = _mapper.Map<EmployeeForUpdateDto>(employeeDb);
+
             return (employeeToPatch: employeeToPatch, employeeEntity: employeeDb);
         }
 

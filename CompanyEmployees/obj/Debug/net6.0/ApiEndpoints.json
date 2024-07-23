@@ -52,6 +52,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesV2Controller",
+    "Method": "GetCompanies",
+    "RelativePath": "api/companies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.EmployeesController",
     "Method": "GetEmployeesForCompany",
     "RelativePath": "api/companies/{companyId}/employees",

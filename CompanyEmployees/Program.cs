@@ -55,25 +55,18 @@ builder.Services.AddScoped<ValidateMediaTypeAttribute>();
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 //
 builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
+builder.Services.ConfigureVersioning();
 
-builder.Services.AddControllers(config => {    
-    config.RespectBrowserAcceptHeader = true; // Added for formatting response
 
-    // if the client tries to negotiate for the media type the server doesn’t support,
-    // it should return the 406 Not Acceptable statuscode.
+builder.Services.AddControllers(config =>
+{
+    config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
-    //for PATCH
-    //config.InputFormatters.Insert(0, GetJsonPatchInputFormatter());
+    //config.InputFormatters.Insert(0, MyJPIF.GetJsonPatchInputFormatter());
 })
-    .AddNewtonsoftJson() //for PATCH
-
-    // Added for formatting response
+    .AddNewtonsoftJson()
     .AddXmlDataContractSerializerFormatters()
-
-    // Added for custom formatter
     .AddCustomCSVFormatter()
-
-    // Adding Controller service from the Presentation Project
     .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
 builder.Services.AddCustomMediaTypes();
@@ -84,6 +77,7 @@ var app = builder.Build();
 //added for exception handeling
 var logger = app.Services.GetRequiredService<ILoggerManager>();
 app.ConfigureExceptionHandler(logger);
+
 if (app.Environment.IsProduction())
     app.UseHsts();
 //
@@ -105,8 +99,4 @@ app.MapControllers();
 
 app.Run();
 
-//NewtonsoftJsonPatchInputFormatter GetJsonPatchInputFormatter() => 
-//    new ServiceCollection().AddLogging().AddMvc().AddNewtonsoftJson()
-//    .Services.BuildServiceProvider()
-//    .GetRequiredService<IOptions<MvcOptions>>().Value.InputFormatters
-//    .OfType<NewtonsoftJsonPatchInputFormatter>().First();
+

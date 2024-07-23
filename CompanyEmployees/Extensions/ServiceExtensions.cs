@@ -6,6 +6,8 @@ using Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
+using CompanyEmployees.Presentation.Controllers;
 
 namespace CompanyEmployees.Extensions
 {
@@ -53,7 +55,7 @@ namespace CompanyEmployees.Extensions
         builder.AddMvcOptions(config => config.OutputFormatters.Add(new
         CsvOutputFormatter()));
 
-        //HATEOAS
+        // HATEOAS
         public static void AddCustomMediaTypes(this IServiceCollection services)
         {
             services.Configure<MvcOptions>(config =>
@@ -79,6 +81,24 @@ namespace CompanyEmployees.Extensions
                 }
             });
         }
+
+        // versioning
+        public static void ConfigureVersioning(this IServiceCollection services)
+        {
+            services.AddApiVersioning(opt =>
+            {
+                opt.ReportApiVersions = true;
+                opt.AssumeDefaultVersionWhenUnspecified = true;
+                opt.DefaultApiVersion = new ApiVersion(1, 0);
+                opt.ApiVersionReader = new HeaderApiVersionReader("api-version"); // adding for HTTP header versioning
+                //opt.Conventions.Controller<CompaniesController>()
+                //.HasApiVersion(new ApiVersion(1, 0));
+                //opt.Conventions.Controller<CompaniesV2Controller>()
+                //.HasDeprecatedApiVersion(new ApiVersion(2, 0));
+
+            });
+        }
+
 
     }
 }
