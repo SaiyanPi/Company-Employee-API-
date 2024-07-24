@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,37 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees\\Program.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
-              "RelativeToolTip": "CompanyEmployees\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAGQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T07:22:35.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CompaniesController.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAYwC8AAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T07:17:19.039Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,9 +32,22 @@
               "RelativeDocumentMoniker": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
               "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
               "RelativeToolTip": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAcwHYAAAAOAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAwIIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T07:21:37.116Z",
+              "WhenOpened": "2024-07-24T09:24:13.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees\\Program.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
+              "RelativeToolTip": "CompanyEmployees\\Program.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAHIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T09:22:21.656Z",
               "EditorCaption": ""
             }
           ]
