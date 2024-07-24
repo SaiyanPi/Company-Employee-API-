@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\",
   "Documents": [
     {
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> rate-limiting-and-throttling
       "AbsoluteMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,38 +25,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+=======
+              "$type": "Document",
+              "DocumentIndex": 0,
+>>>>>>> rate-limiting-and-throttling
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
               "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
               "RelativeToolTip": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAEsAAAAAAAAAAAAAwIYAAAA7AAAA",
+=======
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAwIIAAAAZAAAA",
+>>>>>>> rate-limiting-and-throttling
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T09:24:13.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 1,
+>>>>>>> rate-limiting-and-throttling
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
               "RelativeDocumentMoniker": "CompanyEmployees\\Program.cs",
               "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
               "RelativeToolTip": "CompanyEmployees\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAADEAAAAAAAAAAAAAAG8AAAAAAAAA",
+=======
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAHIAAAAKAAAA",
+>>>>>>> rate-limiting-and-throttling
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T09:22:21.656Z",
               "EditorCaption": ""

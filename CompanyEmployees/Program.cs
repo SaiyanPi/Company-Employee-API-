@@ -59,7 +59,11 @@ builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
 builder.Services.ConfigureVersioning();
 builder.Services.ConfigureResponseCaching(); // for adding cache-store
 builder.Services.ConfigureHttpCacheHeaders(); // supporting validation
+<<<<<<< HEAD
 builder.Services.AddMemoryCache();
+=======
+builder.Services.AddMemoryCache(); // adding MemoryCache for AspNetCoreRateLimit library
+>>>>>>> rate-limiting-and-throttling
 builder.Services.ConfigureRateLimitingOptions();
 builder.Services.AddHttpContextAccessor();
 
@@ -105,6 +109,7 @@ app.UseCors("CorsPolicy");
 //
 app.UseResponseCaching(); // for adding cache-store
 app.UseHttpCacheHeaders(); // supporting validation
+app.UseIpRateLimiting();
 
 
 app.UseAuthorization();
