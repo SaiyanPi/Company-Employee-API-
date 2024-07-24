@@ -56,6 +56,8 @@ builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 //
 builder.Services.AddScoped<IEmployeeLinks, EmployeeLinks>();
 builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching(); // for adding cache-store
+builder.Services.ConfigureHttpCacheHeaders(); // supporting validation
 
 
 builder.Services.AddControllers(config =>
@@ -63,6 +65,10 @@ builder.Services.AddControllers(config =>
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
     //config.InputFormatters.Insert(0, MyJPIF.GetJsonPatchInputFormatter());
+    config.CacheProfiles.Add("120SecondsDuration", new CacheProfile
+    {
+        Duration = 120
+    });
 })
     .AddNewtonsoftJson()
     .AddXmlDataContractSerializerFormatters()
@@ -91,6 +97,9 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 });
 app.UseCors("CorsPolicy");
 //
+app.UseResponseCaching(); // for adding cache-store
+app.UseHttpCacheHeaders(); // supporting validation
+
 app.UseAuthorization();
 
 
