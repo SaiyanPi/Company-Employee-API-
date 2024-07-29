@@ -1,6 +1,7 @@
 ﻿using CompanyEmployees.Presentation.ActionFilters;
 using CompanyEmployees.Presentation.ModelBinders;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
@@ -31,6 +32,8 @@ namespace CompanyEmployees.Presentation.Controllers
         }
 
         [HttpGet(Name = "GetCompanies")]
+        [Authorize(Roles = "Manager")]
+
         //public IActionResult GetCompanies()
         //{ 
         //    var companies = _service.CompanyService.GetAllCompanies(trackChanges: false);

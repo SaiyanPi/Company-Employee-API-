@@ -16,6 +16,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.AuthenticationController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userForRegistration",
+        "Type": "Shared.DataTransferObjects.UserForRegistrationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.AuthenticationController",
+    "Method": "Authenticate",
+    "RelativePath": "api/authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Shared.DataTransferObjects.UserForAuthenticationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesController",
     "Method": "GetCompaniesOptions",
     "RelativePath": "api/companies",

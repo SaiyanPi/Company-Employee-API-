@@ -62,6 +62,10 @@ builder.Services.ConfigureHttpCacheHeaders(); // supporting validation
 builder.Services.AddMemoryCache();
 builder.Services.ConfigureRateLimitingOptions();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddAuthentication();
+builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJWT(builder.Configuration);
+
 
 
 
@@ -106,6 +110,7 @@ app.UseCors("CorsPolicy");
 app.UseResponseCaching(); // for adding cache-store
 app.UseHttpCacheHeaders(); // supporting validation
 
+app.UseAuthentication();
 
 app.UseAuthorization();
 
