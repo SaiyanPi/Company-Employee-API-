@@ -139,11 +139,9 @@ namespace CompanyEmployees.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -168,6 +166,12 @@ namespace CompanyEmployees.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RefreshTokenExpiryTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -221,15 +225,15 @@ namespace CompanyEmployees.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "f15273ec-6e87-4dde-9806-e1931935a2e3",
-                            ConcurrencyStamp = "6ef227f6-7163-4790-a675-ca54a2490f08",
+                            Id = "91e59694-e8d7-4778-a5dd-a21c46560e83",
+                            ConcurrencyStamp = "86d7dbc2-3fc8-4538-9199-7f1d625d0fce",
                             Name = "Manager",
                             NormalizedName = "MANAGER"
                         },
                         new
                         {
-                            Id = "03a26fd6-d289-4749-8df8-c98a5c10d6ca",
-                            ConcurrencyStamp = "785d3aa8-2f1e-4364-bc74-7d412cec589c",
+                            Id = "5fc8a0fe-e7ec-4808-85c3-e3e6f2556f0c",
+                            ConcurrencyStamp = "9ec8fe1a-25ae-47bf-ba9e-edd19b464082",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });

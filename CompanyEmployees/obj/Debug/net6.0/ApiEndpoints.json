@@ -404,5 +404,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyEmployees.Presentation.Controllers.TokenController",
+    "Method": "Refresh",
+    "RelativePath": "api/token/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenDto",
+        "Type": "Shared.DataTransferObjects.TokenDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

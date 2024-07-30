@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57D63FBD-0E0C-447A-9D0C-BB94D83EF7D7}|Entities\\Entities.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\entities\\exceptions\\refreshtokenbadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D63FBD-0E0C-447A-9D0C-BB94D83EF7D7}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\refreshtokenbadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|solutionrelative:service\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DF1384F-687E-4C47-9C85-40A1970F0132}|CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj|solutionrelative:companyemployees.presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1139CE6-6CDF-4DF8-B0A4-76372AA01D8F}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\service.contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1139CE6-6CDF-4DF8-B0A4-76372AA01D8F}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\companyemployees\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06698988-F3EE-49A9-A223-35A52AF0E385}|CompanyEmployees\\CompanyEmployees.csproj|solutionrelative:companyemployees\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CC3D8D2-31AE-4413-A50C-CBFF6771026D}|Service\\Service.csproj|solutionrelative:service\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1139CE6-6CDF-4DF8-B0A4-76372AA01D8F}|Service.Contracts\\Service.Contracts.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1139CE6-6CDF-4DF8-B0A4-76372AA01D8F}|Service.Contracts\\Service.Contracts.csproj|solutionrelative:service.contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708A4235-C552-459B-87B6-0AF3C23B8F93}|Repository\\Repository.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708A4235-C552-459B-87B6-0AF3C23B8F93}|Repository\\Repository.csproj|solutionrelative:repository\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE46C3FB-4FB3-4272-9528-23520BC49DEA}|Shared\\Shared.csproj|c:\\users\\zlams\\source\\asp.net core web api\\companyemployees\\shared\\datatransferobjects\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE46C3FB-4FB3-4272-9528-23520BC49DEA}|Shared\\Shared.csproj|solutionrelative:shared\\datatransferobjects\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,116 +43,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RefreshTokenBadRequest.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Entities\\Exceptions\\RefreshTokenBadRequest.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\RefreshTokenBadRequest.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Entities\\Exceptions\\RefreshTokenBadRequest.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\RefreshTokenBadRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T11:17:43.605Z",
+              "WhenOpened": "2024-07-30T10:15:17.642Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CompaniesController.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\CompaniesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAtAAAA",
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\TokenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:26:32.677Z",
+              "WhenOpened": "2024-07-30T10:12:26.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "CompanyEmployees.Presentation\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees.Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "CompanyEmployees.Presentation\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T10:01:00.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\appsettings.json",
-              "RelativeDocumentMoniker": "CompanyEmployees\\appsettings.json",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\appsettings.json",
-              "RelativeToolTip": "CompanyEmployees\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-29T09:47:24.963Z"
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Service\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\AuthenticationService.cs",
+              "RelativeToolTip": "Service\\AuthenticationService.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAcwJQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T09:30:48.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees\\Program.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Program.cs",
-              "RelativeToolTip": "CompanyEmployees\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAIBJwEQAAAAAAAAA",
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service.Contracts\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Service.Contracts\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service.Contracts\\IAuthenticationService.cs",
+              "RelativeToolTip": "Service.Contracts\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:32:42.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "CompanyEmployees\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAcwMAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:31:33.66Z"
+              "WhenOpened": "2024-07-30T09:30:18.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "CompanyEmployees\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\CompanyEmployees\\MappingProfile.cs",
-              "RelativeToolTip": "CompanyEmployees\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAFAAAA",
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\DataTransferObjects\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Shared\\DataTransferObjects\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Shared\\DataTransferObjects\\TokenDto.cs",
+              "RelativeToolTip": "Shared\\DataTransferObjects\\TokenDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:05:01.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IServiceManager.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service.Contracts\\IServiceManager.cs",
-              "RelativeDocumentMoniker": "Service.Contracts\\IServiceManager.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service.Contracts\\IServiceManager.cs",
-              "RelativeToolTip": "Service.Contracts\\IServiceManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:22:15.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ServiceManager.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\ServiceManager.cs",
-              "RelativeDocumentMoniker": "Service\\ServiceManager.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\ServiceManager.cs",
-              "RelativeToolTip": "Service\\ServiceManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:22:38.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Repository\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "Repository\\RepositoryContext.cs",
-              "ToolTip": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Repository\\RepositoryContext.cs",
-              "RelativeToolTip": "Repository\\RepositoryContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBcAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:29:22.246Z"
+              "WhenOpened": "2024-07-30T09:29:54.891Z",
+              "EditorCaption": ""
             }
           ]
         }
