@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QI59eV6CheNTYKNiQd3WhAdniAiaRYU/sHDSmtsD9S+wLPE08s8NmBsZJCziOGnUvqqFSQvyAHCJckc9TOyBAQ==",
+  "dgSpecHash": "BHt164xjGhQd7B3YbqRkGpsMDLpFa6KmtstIDWIdUGhMzRdJJBFFCF/7yBpATjFdmaQ2NN7IaLx2Bph8K2paew==",
   "success": true,
   "projectFilePath": "C:\\Users\\zlams\\source\\ASP.NET Core Web API\\CompanyEmployees\\Service\\Service.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.1\\microsoft.entityframeworkcore.relational.6.0.1.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
-    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.2\\microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.1\\microsoft.extensions.identity.core.6.0.1.nupkg.sha512",
@@ -27,7 +28,7 @@
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\zlams\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.34.0\\microsoft.identitymodel.abstractions.6.34.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.34.0\\microsoft.identitymodel.jsonwebtokens.6.34.0.nupkg.sha512",
     "C:\\Users\\zlams\\.nuget\\packages\\microsoft.identitymodel.logging\\6.34.0\\microsoft.identitymodel.logging.6.34.0.nupkg.sha512",

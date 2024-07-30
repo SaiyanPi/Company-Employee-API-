@@ -326,6 +326,10 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.34.0, )"
