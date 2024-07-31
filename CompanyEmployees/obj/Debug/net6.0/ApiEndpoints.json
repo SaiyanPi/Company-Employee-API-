@@ -81,7 +81,43 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/vnd.codemaze.hateoas\u002Bjson",
+          "application/vnd.codemaze.apiroot\u002Bjson",
+          "application/xml",
+          "text/xml",
+          "application/vnd.codemaze.hateoas\u002Bxml",
+          "application/vnd.codemaze.apiroot\u002Bxml"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json",
+          "application/vnd.codemaze.hateoas\u002Bjson",
+          "application/vnd.codemaze.apiroot\u002Bjson",
+          "application/xml",
+          "text/xml",
+          "application/vnd.codemaze.hateoas\u002Bxml",
+          "application/vnd.codemaze.apiroot\u002Bxml"
+        ],
+        "StatusCode": 422
+      }
+    ]
   },
   {
     "ContainingType": "CompanyEmployees.Presentation.Controllers.CompaniesV2Controller",
@@ -314,7 +350,7 @@
       },
       {
         "Name": "patchDoc",
-        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[Shared.DataTransferObjects.EmployeeForUpdateDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
